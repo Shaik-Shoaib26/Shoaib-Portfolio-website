@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio website of Shaik Shoaib — B.Tech CSE(AI) student, AI & Web Developer showcasing AI, Python, and Web Development projects">
+  <meta name="keywords" content="Shaik Shoaib, Portfolio, AI Developer, Web Developer, Python, Machine Learning, Deep Learning, Frontend Developer">
+  <meta name="author" content="Shaik Shoaib">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Shaik Shoaib — AI & Web Developer Portfolio">
+  <meta property="og:description" content="B.Tech CSE(AI) student building AI-powered applications and modern web projects">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="">
+  <title>Shaik Shoaib — AI &amp; Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== SKIP TO CONTENT ACCESSIBILITY LINK ====== -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ====== HEADER / NAVIGATION ====== -->
+  <header>
+
+    <nav aria-label="Main Navigation" class="navbar" id="navbar">
+
+      <a href="index.html" class="logo" aria-label="Shaik Shoaib - Home">
+        &lt;Shaik Shoaib /&gt;
+      </a>
+
+      <!-- Mobile Hamburger -->
+      <button
+        class="hamburger"
+        id="hamburger-btn"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <!-- Nav Links -->
+      <ul class="nav-menu" id="nav-menu" role="menu">
+        <li role="none">
+          <a href="index.html" role="menuitem" aria-current="page">Home</a>
+        </li>
+        <li role="none">
+          <a href="about.html" role="menuitem">About</a>
+        </li>
+        <li role="none">
+          <a href="projects.html" role="menuitem">Projects</a>
+        </li>
+        <li role="none">
+          <a href="contact.html" role="menuitem">Contact</a>
+        </li>
+        <li role="none">
+          <button
+            id="theme-toggle"
+            class="theme-btn"
+            aria-label="Toggle dark and light mode">
+            🌙
+          </button>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main id="main-content">
+
+    <!-- ====== HERO SECTION ====== -->
+    <section class="hero" aria-labelledby="hero-heading">
+
+      <div class="hero-bg-shapes" aria-hidden="true">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+
+      <div class="hero-content">
+
+        <p class="hero-greeting" id="hero-greeting">Hello, I'm</p>
+
+        <h1 id="hero-heading">Shaik Shoaib</h1>
+
+        <p class="hero-role">
+          <span class="typing-text" id="typing-role"></span>
+          <span class="cursor" id="cursor"></span>
+        </p>
+
+        <p class="hero-description">
+          B.Tech CSE(AI) student passionate about building AI-powered applications,
+          solving real-world problems, and crafting clean, accessible web experiences.
+        </p>
+
+        <div class="hero-cta">
+          <a href="projects.html" class="btn btn-primary">View Projects</a>
+          <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+        </div>
+
+        <div class="hero-social">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="View Shaik Shoaib's GitHub profile">
+            <img src="images/github-icon.svg" alt="" width="24" height="24" aria-hidden="true">
+            <img src="images/github-icon-blue.svg" alt="" width="24" height="24" class="icon-hover" aria-hidden="true">
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="View Shaik Shoaib's LinkedIn profile">
+            <img src="images/linkedin-icon.svg" alt="" width="24" height="24" aria-hidden="true">
+            <img src="images/linkedin-icon-blue.svg" alt="" width="24" height="24" class="icon-hover" aria-hidden="true">
+          </a>
+          <a href="mailto:shaikshoaib@example.com" aria-label="Send an email to Shaik Shoaib">
+            <img src="images/email-icon.svg" alt="" width="24" height="24" aria-hidden="true">
+            <img src="images/email-icon-blue.svg" alt="" width="24" height="24" class="icon-hover" aria-hidden="true">
+          </a>
+        </div>
+
+      </div>
+
+      <div class="hero-image" aria-hidden="true">
+        <div class="hero-avatar">
+          <img src="images/image.jpeg" alt="" width="220" height="220" decoding="async">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ====== SKILLS SECTION ====== -->
+    <section class="skills-section" id="skills" aria-labelledby="skills-heading" aria-label="Technical skills">
+
+      <h2 id="skills-heading" class="section-title">Technical Skills</h2>
+
+      <div class="skills-count" aria-hidden="true">
+        <span>06</span> Skills
+      </div>
+
+      <div class="skills-grid" role="list">
+
+        <article class="skill-card reveal" role="listitem" tabindex="0">
+          <div class="skill-icon" aria-hidden="true">&#60;/&#62;</div>
+          <h3>HTML5</h3>
+          <p>Semantic markup &amp; accessibility</p>
+          <span class="skill-badge">Expert</span>
+        </article>
+
+        <article class="skill-card reveal" role="listitem" tabindex="0">
+          <div class="skill-icon" aria-hidden="true">🎨</div>
+          <h3>CSS3</h3>
+          <p>Responsive design &amp; animations</p>
+          <span class="skill-badge">Expert</span>
+        </article>
+
+        <article class="skill-card reveal" role="listitem" tabindex="0">
+          <div class="skill-icon" aria-hidden="true">⚡</div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, ES6+</p>
+          <span class="skill-badge">Advanced</span>
+        </article>
+
+        <article class="skill-card reveal" role="listitem" tabindex="0">
+          <div class="skill-icon" aria-hidden="true">🐍</div>
+          <h3>Python</h3>
+          <p>Scripting, automation &amp; backend</p>
+          <span class="skill-badge">Advanced</span>
+        </article>
+
+        <article class="skill-card reveal" role="listitem" tabindex="0">
+          <div class="skill-icon" aria-hidden="true">🤖</div>
+          <h3>AI / ML</h3>
+          <p>TensorFlow, OpenCV, deep learning</p>
+          <span class="skill-badge">Intermediate</span>
+        </article>
+
+        <article class="skill-card reveal" role="listitem" tabindex="0">
+          <div class="skill-icon" aria-hidden="true">🐙</div>
+          <h3>GitHub</h3>
+          <p>Version control &amp; collaboration</p>
+          <span class="skill-badge">Advanced</span>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- ====== FEATURED PROJECTS SECTION ====== -->
+    <section class="projects-section" id="projects" aria-labelledby="projects-heading" aria-label="Featured projects">
+
+      <h2 id="projects-heading" class="section-title">Featured Projects</h2>
+
+      <div class="projects-count" aria-hidden="true">
+        <span>04</span> Projects
+      </div>
+
+      <div class="projects-grid" role="list">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal" role="listitem">
+          <div class="project-img" role="img" aria-label="Air Drawing System - AI-based virtual drawing using hand gestures">
+            <div class="project-placeholder">
+              <span aria-hidden="true">🎨</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">MediaPipe</span>
+            </div>
+            <h3>Air Drawing System</h3>
+            <p>
+              AI-based drawing system using hand gesture recognition through OpenCV
+              and MediaPipe. Draw in the air and watch your masterpiece come to life.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/Shaik-Shoaib26/Air-Drawing" target="_blank" rel="noopener noreferrer" class="btn btn-small" aria-label="View Air Drawing System on GitHub">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.205.085 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.605-2.665-.303-5.467-1.333-5.467-5.93 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23A11.51 11.51 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="btn btn-small btn-primary" aria-label="View Air Drawing System live demo">Live Demo →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal" role="listitem">
+          <div class="project-img" role="img" aria-label="Hill Climb Hand Control game with gesture recognition">
+            <div class="project-placeholder">
+              <span aria-hidden="true">🏎️</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">MediaPipe</span>
+            </div>
+            <h3>Hill Climb Hand Control</h3>
+            <p>
+              Control a hill climb racing game using hand gestures detected through OpenCV
+              and MediaPipe. Hand movements steer and accelerate the car in real time.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/Shaik-Shoaib26/hillclimb_handcontrol" target="_blank" rel="noopener noreferrer" class="btn btn-small" aria-label="View Hill Climb Hand Control on GitHub">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.205.085 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.605-2.665-.303-5.467-1.333-5.467-5.93 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23A11.51 11.51 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="btn btn-small btn-primary" aria-label="View Hill Climb Hand Control live demo">Live Demo →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal" role="listitem">
+          <div class="project-img" role="img" aria-label="GitHub Finder — search GitHub user profiles">
+            <div class="project-placeholder">
+              <span aria-hidden="true">🔍</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <h3>GitHub Finder</h3>
+            <p>
+              Search GitHub profiles dynamically using the GitHub REST API.
+              View user info, repositories, star counts, and contribution activity.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/Shaik-Shoaib26/Github-Finder" target="_blank" rel="noopener noreferrer" class="btn btn-small" aria-label="View GitHub Finder on GitHub">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.205.085 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.605-2.665-.303-5.467-1.333-5.467-5.93 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23A11.51 11.51 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="btn btn-small btn-primary" aria-label="View GitHub Finder live demo">Live Demo →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal" role="listitem">
+          <div class="project-img" role="img" aria-label="House Price Prediction — Machine learning model predicting house prices">
+            <div class="project-placeholder">
+              <span aria-hidden="true">🏠</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">ML</span>
+            </div>
+            <h3>House Price Prediction</h3>
+            <p>
+              Machine learning model predicting house prices based on location, size,
+              and amenities. Built with scikit-learn regression pipelines.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/Shaik-Shoaib26/house-price-map-app" target="_blank" rel="noopener noreferrer" class="btn btn-small" aria-label="View House Price Predictor on GitHub">
+                <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.205.085 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.605-2.665-.303-5.467-1.333-5.467-5.93 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23A11.51 11.51 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.218.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                GitHub
+              </a>
+              <a href="https://house-price-map-app-m.streamlit.app/" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary" aria-label="View House Price Predictor live demo">Live Demo →</a>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /.projects-grid -->
+
+    </section>
+
+    <!-- ====== CALL TO ACTION SECTION ====== -->
+    <section class="cta-section" id="cta" aria-labelledby="cta-heading">
+      <div class="cta-content">
+        <h2 id="cta-heading">Let's Work Together</h2>
+        <p>
+          I'm always open to discussing new projects, creative ideas,
+          and opportunities to collaborate. Let's build something amazing!
+        </p>
+        <a href="contact.html" class="btn btn-primary btn-lg">Get in Touch</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== SCROLL TO TOP ====== -->
+  <button
+    id="scroll-top"
+    class="scroll-top"
+    aria-label="Scroll back to top of page"
+    aria-hidden="true">
+    &#8679;
+  </button>
+
+  <!-- ====== FOOTER ====== -->
+  <footer>
+    <div class="footer-content">
+
+      <div class="footer-brand">
+        <strong>&lt;Shaik Shoaib /&gt;</strong>
+        <p>B.Tech CSE(AI) Student | AI &amp; Web Developer</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h3>Connect</h3>
+        <ul>
+          <li>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Visit Shaik Shoaib on GitHub">
+              <img src="images/github-icon.svg" alt="" width="20" height="20" aria-hidden="true"> GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="Visit Shaik Shoaib on LinkedIn">
+              <img src="images/linkedin-icon.svg" alt="" width="20" height="20" aria-hidden="true"> LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="mailto:shaikshoaib@example.com" aria-label="Email Shaik Shoaib">
+              <img src="images/email-icon.svg" alt="" width="20" height="20" aria-hidden="true"> Email
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Shaik Shoaib. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

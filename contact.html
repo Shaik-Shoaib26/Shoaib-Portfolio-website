@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Shaik Shoaib — Send a message for AI/ML and Web Development collaborations and opportunities.">
+  <meta name="keywords" content="Contact Shaik Shoaib, AI Developer Contact, Web Developer, Portfolio Contact Form">
+  <meta name="author" content="Shaik Shoaib">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Contact Shaik Shoaib | AI &amp; Web Developer">
+  <meta property="og:description" content="Get in touch with Shaik Shoaib for AI, Python and web development projects and opportunities">
+  <meta property="og:type" content="website">
+  <title>Contact Me | Shaik Shoaib Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SKIP LINK -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- HEADER -->
+  <header>
+    <nav aria-label="Main Navigation" class="navbar" id="navbar">
+
+      <a href="index.html" class="logo" aria-label="Shaik Shoaib - Home">
+        &lt;Shaik Shoaib /&gt;
+      </a>
+
+      <button
+        class="hamburger"
+        id="hamburger-btn"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="menu">
+        <li role="none"><a href="index.html" role="menuitem">Home</a></li>
+        <li role="none"><a href="about.html" role="menuitem">About</a></li>
+        <li role="none"><a href="projects.html" role="menuitem">Projects</a></li>
+        <li role="none">
+          <a href="contact.html" role="menuitem" aria-current="page">Contact</a>
+        </li>
+        <li role="none">
+          <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark and light mode">
+            🌙
+          </button>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main-content">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero" id="page-hero" aria-labelledby="page-hero-heading">
+      <h1 id="page-hero-heading">Get in Touch</h1>
+      <p class="page-hero-sub">Have a project or idea? I'd love to hear from you.</p>
+    </section>
+
+    <hr class="section-divider" aria-hidden="true">
+
+    <div class="contact-wrapper">
+
+      <!-- ====== CONTACT INFO ====== -->
+      <aside class="contact-info reveal" aria-labelledby="contact-info-heading">
+
+        <h2 id="contact-info-heading" class="sr-only">Contact Information</h2>
+
+        <div class="info-card reveal">
+          <div class="info-icon" aria-hidden="true">📧</div>
+          <h3>Email</h3>
+          <a href="mailto:shaikshoaib@example.com" aria-label="Send email to Shaik Shoaib at shaikshoaib@example.com">
+            shaikshoaib@example.com
+          </a>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="info-icon" aria-hidden="true">📱</div>
+          <h3>Phone</h3>
+          <p>+91 98765 43210</p>
+        </div>
+
+        <div class="info-card reveal">
+          <div class="info-icon" aria-hidden="true">📍</div>
+          <h3>Location</h3>
+          <p>India</p>
+        </div>
+
+        <div class="contact-social reveal">
+          <h3>Find Me On</h3>
+          <div class="social-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+               class="social-card" aria-label="Visit Shaik Shoaib on GitHub">
+              <img src="images/github-icon.svg" alt="" width="28" height="28" aria-hidden="true">
+              <span>GitHub</span>
+              <span class="social-arrow" aria-hidden="true">→</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+               class="social-card" aria-label="Visit Shaik Shoaib on LinkedIn">
+              <img src="images/linkedin-icon.svg" alt="" width="28" height="28" aria-hidden="true">
+              <span>LinkedIn</span>
+              <span class="social-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+
+      </aside>
+
+      <!-- ====== CONTACT FORM ====== -->
+      <section class="contact-form-section reveal" aria-labelledby="form-heading">
+        <h2 id="form-heading" class="section-heading">Send a Message</h2>
+
+        <form id="contact-form" novalidate aria-label="Contact form">
+
+          <!-- Name -->
+          <div class="form-group">
+            <label for="name" class="form-label">Your Name <span class="required" aria-label="required">*</span></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              aria-label="Enter your name"
+              aria-required="true"
+              required>
+            <p class="form-error" id="name-error" role="alert" aria-live="polite"></p>
+          </div>
+
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email" class="form-label">Your Email <span class="required" aria-label="required">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              aria-label="Enter your email address"
+              aria-required="true"
+              required>
+            <p class="form-error" id="email-error" role="alert" aria-live="polite"></p>
+          </div>
+
+          <!-- Subject -->
+          <div class="form-group">
+            <label for="subject" class="form-label">Subject <span class="required" aria-label="required">*</span></label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              aria-label="Subject of your message"
+              aria-required="true"
+              required>
+            <p class="form-error" id="subject-error" role="alert" aria-live="polite"></p>
+          </div>
+
+          <!-- Message -->
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message <span class="required" aria-label="required">*</span></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              aria-label="Enter your message"
+              aria-required="true"
+              required></textarea>
+            <p class="form-error" id="message-error" role="alert" aria-live="polite"></p>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-submit" aria-label="Submit contact form">
+            Send Message
+          </button>
+
+        </form>
+
+        <!-- Success / Error Modal -->
+        <div id="form-toast" class="toast" role="status" aria-live="polite" aria-atomic="true" aria-relevant="additions text"></div>
+
+      </section>
+
+    </div><!-- /.contact-wrapper -->
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 Shaik Shoaib. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
