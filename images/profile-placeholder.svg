@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5b5ef7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="110" cy="110" r="110"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="110" cy="110" r="110" fill="url(#bg)"/>
+
+  <!-- Head silhouette -->
+  <circle cx="110" cy="82" r="38" fill="white" opacity="0.9"/>
+
+  <!-- Shoulders / body -->
+  <path d="M40 200 C40 145 55 125 75 122 C80 118 88 116 110 116 C132 116 140 118 145 122 C165 125 180 145 180 200 Z" fill="white" opacity="0.9"/>
+
+  <!-- Camera icon top-right hint -->
+  <circle cx="175" cy="45" r="18" fill="white" opacity="0.15"/>
+  <text x="175" y="52" text-anchor="middle" font-size="18" fill="white" opacity="0.7" font-family="sans-serif">📷</text>
+
+  <!-- Bottom label -->
+  <text x="110" y="210" text-anchor="middle" font-size="11" fill="white" opacity="0.75" font-family="sans-serif" letter-spacing="1">YOUR PHOTO HERE</text>
+</svg>
